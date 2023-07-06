@@ -49,7 +49,7 @@ const Navigation = () => {
     <Fragment>
       <FlexGrow>
         <NavigationContainer>
-          <LogoContainer to='/'>
+          <LogoContainer to='/doniczk'>
             <Logo src={DoniczkowcyLogo} className='logo' alt="logo doniczkowcy"/>
           </LogoContainer>
           <NavLinks>
