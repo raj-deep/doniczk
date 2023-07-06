@@ -24,8 +24,8 @@ const Footer = () => {
         
         <FooterMenus>
           <FooterMenuList>
-            <FooterMenuListItem><Link to="/">Sklep</Link></FooterMenuListItem>
-            <FooterMenuListItem><Link to="/">Kontakt</Link></FooterMenuListItem>
+            <FooterMenuListItem><Link to="/sklep">Sklep</Link></FooterMenuListItem>
+            <FooterMenuListItem><Link to="/kontakt">Kontakt</Link></FooterMenuListItem>
           </FooterMenuList>
           <FooterMenuList>
             <FooterMenuListItem><Link to="/sklep">Sklep</Link></FooterMenuListItem>
@@ -33,9 +33,9 @@ const Footer = () => {
             <FooterMenuListItem><Link to="/kasa">Koszyk</Link></FooterMenuListItem>
           </FooterMenuList>
           <FooterMenuList>
-            <FooterMenuListItem><a href="#">Instagram</a></FooterMenuListItem>
-            <FooterMenuListItem><a href="#">Facebook</a></FooterMenuListItem>
-            <FooterMenuListItem><a href="#">TikTok</a></FooterMenuListItem>
+            <FooterMenuListItem><a href="https://www.instagram.com/">Instagram</a></FooterMenuListItem>
+            <FooterMenuListItem><a href="https://www.facebook.com/">Facebook</a></FooterMenuListItem>
+            <FooterMenuListItem><a href="https://www.tiktok.com/">TikTok</a></FooterMenuListItem>
           </FooterMenuList>
         </FooterMenus>
         </FooterColumns>

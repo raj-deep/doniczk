@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 import { Routes, Route } from 'react-router-dom';
 
@@ -16,9 +16,7 @@ import { setCurrentUser } from './store/user/user.reducer';
 import Contact from './routes/contact/contact.component';
 import Footer from './routes/footer/footer.component';
 import Product from './routes/product/product.component';
-import WelcomeScreen from './components/welcomeScreen/welcomeScreen.component';
 import ProductPage from './routes/product/product.component';
-import OrderConfirmation from './routes/order-confirmation/order-confirmation.component';
 import ConfirmationPage from './routes/confirmation/confirmation.component';
 
 const App = () => {
@@ -51,7 +49,6 @@ const App = () => {
         <Route path='kontakt' element={<Contact />} />
         <Route path='produkt' element={<Product />} />
         <Route path='potwierdzenie' element={<ConfirmationPage />} />
-        {/* <Route path='potwierdzenie' element={<OrderConfirmation />} /> */}
       </Route>
     </Routes>
   );

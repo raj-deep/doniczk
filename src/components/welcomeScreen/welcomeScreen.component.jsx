@@ -5,8 +5,7 @@ import FormInput from "../form-input/form-input.component";
 import Button from "../button/button.component";
 
 import {
-  createAuthUserWithEmailAndPassword,
-  createUserDocumentFromAuth,
+
   getAuthUserPhoneNumber,
   updateAuthUserProfile,
 } from "../../utils/firebase/firebase.utils";
@@ -18,10 +17,8 @@ import {
 } from "./welcomeScreen.styles";
 import Plants from "../../assets/plants.png";
 import {
-  getAuth,
   updateEmail,
   updatePassword,
-  updatePhoneNumber,
 } from "firebase/auth";
 
 import firebase from "firebase/compat/app";

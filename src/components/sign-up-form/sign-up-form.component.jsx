@@ -5,11 +5,9 @@ import Button from "../button/button.component";
 
 import {
   createAuthUserWithEmailAndPassword,
-  createUserDocumentFromAuth,
   getAuthUserPhoneNumber,
   updateAuthUserProfile,
 } from "../../utils/firebase/firebase.utils";
-import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
