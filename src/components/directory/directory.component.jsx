@@ -47,7 +47,11 @@ const Directory = () => {
     <DirectoryContainer>
       <DirectoryTitleWrapper>
         <DirectoryLeft>
+<<<<<<< HEAD
           <h1>Raj dla miłośników</h1>
+=======
+          <h1>Raj dla miłośników rośln</h1>
+>>>>>>> 5914d57d19a80081dd0bbffcbba2056661f8d68b
           <p>Wprowadź do swojej przestrzeni rośliny i poczuj połączenie z naturą.</p>
         </DirectoryLeft>
         <DirectoryRight>
