@@ -61,7 +61,7 @@ const Navigation = () => {
                 title="Sklep"
                 onClick={handleToggleDropdown}
               >
-                SKLEP
+                Shop
               </NavLink>
               {dropdownOpen && (
                 <DropdownMenu
