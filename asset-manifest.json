@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/doniczkowcy/static/css/main.4de0636e.css",
-    "main.js": "/doniczkowcy/static/js/main.dfc41541.js",
-    "static/media/v986-28.jpg": "/doniczkowcy/static/media/v986-28.5b33e8e9c5205c19a5e9.jpg",
-    "static/media/plants.png": "/doniczkowcy/static/media/plants.dcea7a05326e29601f0c.png",
-    "static/media/pet.png": "/doniczkowcy/static/media/pet.0edab36aab7b9067e2d6.png",
-    "static/media/sunlight.png": "/doniczkowcy/static/media/sunlight.8104b3faad8058cb506c.png",
-    "static/media/watering-plants.png": "/doniczkowcy/static/media/watering-plants.c79406b9a0843c720aab.png",
-    "static/media/logo.png": "/doniczkowcy/static/media/logo.94b48dba1dc8a8d8b538.png",
-    "index.html": "/doniczkowcy/index.html",
-    "main.4de0636e.css.map": "/doniczkowcy/static/css/main.4de0636e.css.map",
-    "main.dfc41541.js.map": "/doniczkowcy/static/js/main.dfc41541.js.map"
+    "main.css": "/doniczk/static/css/main.4de0636e.css",
+    "main.js": "/doniczk/static/js/main.442b7a0f.js",
+    "static/media/v986-28.jpg": "/doniczk/static/media/v986-28.5b33e8e9c5205c19a5e9.jpg",
+    "static/media/plants.png": "/doniczk/static/media/plants.dcea7a05326e29601f0c.png",
+    "static/media/pet.png": "/doniczk/static/media/pet.0edab36aab7b9067e2d6.png",
+    "static/media/sunlight.png": "/doniczk/static/media/sunlight.8104b3faad8058cb506c.png",
+    "static/media/watering-plants.png": "/doniczk/static/media/watering-plants.c79406b9a0843c720aab.png",
+    "static/media/logo.png": "/doniczk/static/media/logo.94b48dba1dc8a8d8b538.png",
+    "index.html": "/doniczk/index.html",
+    "main.4de0636e.css.map": "/doniczk/static/css/main.4de0636e.css.map",
+    "main.442b7a0f.js.map": "/doniczk/static/js/main.442b7a0f.js.map"
   },
   "entrypoints": [
     "static/css/main.4de0636e.css",
-    "static/js/main.dfc41541.js"
+    "static/js/main.442b7a0f.js"
   ]
 }
