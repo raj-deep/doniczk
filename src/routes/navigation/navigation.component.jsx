@@ -61,7 +61,7 @@ const Navigation = () => {
                 title="Sklep"
                 onClick={handleToggleDropdown}
               >
-                Shop
+                SHOP
               </NavLink>
               {dropdownOpen && (
                 <DropdownMenu
@@ -93,10 +93,10 @@ const Navigation = () => {
               )}
             </NavLinkItem>
             <NavLinkItem>
-              <NavLink to='/kontakt'>KONTAKT</NavLink>
+              <NavLink to='/kontakt'>CONTACT</NavLink>
             </NavLinkItem>
             <NavLinkItem>
-              <NavLink to='/mojekonto'>MOJE KONTO</NavLink>
+              <NavLink to='/mojekonto'>MY ACCOUNT</NavLink>
             </NavLinkItem>
             <NavLinkItem>
               <CartPosition>
