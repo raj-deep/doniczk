@@ -1,6 +1,6 @@
 export const SHOP_DATA = [
   {
-    title: "plant",
+    title: "rosliny",
     categories: "rosliny",
     items: [
       {
@@ -238,7 +238,7 @@ export const SHOP_DATA = [
     ],
   },
   {
-    title: "seedlings",
+    title: "sadzonki",
     categories: "sadzonki",
     items: [
       {
@@ -351,7 +351,7 @@ export const SHOP_DATA = [
   },
   {
     id: 3,
-    title: "pots",
+    title: "donice",
     categories: "donice",
     items: [
       {
@@ -398,7 +398,7 @@ export const SHOP_DATA = [
   },
   {
     id: 4,
-    title: "accessories",
+    title: "akcesoria",
     categories: "akcesoria",
     items: [
       {
@@ -465,7 +465,7 @@ export const SHOP_DATA = [
   },
   {
     id: 5,
-    title: "soil",
+    title: "ziemia",
     categories: "ziemia",
     items: [
       {
