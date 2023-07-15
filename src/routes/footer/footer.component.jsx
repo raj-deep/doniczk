@@ -19,18 +19,18 @@ const Footer = () => {
         <FooterColumns>
           <div>
             <FooterLogo src={DoniczkowcyLogo}/>
-            <FooterText>Wprowadź do swojej przestrzeni rośliny i poczuj połączenie z naturą.</FooterText>
+            <FooterText>Bring plants into your space and feel connected to nature.</FooterText>
           </div>
         
         <FooterMenus>
           <FooterMenuList>
-            <FooterMenuListItem><Link to="/sklep">Sklep</Link></FooterMenuListItem>
-            <FooterMenuListItem><Link to="/kontakt">Kontakt</Link></FooterMenuListItem>
+            <FooterMenuListItem><Link to="/sklep">Store</Link></FooterMenuListItem>
+            <FooterMenuListItem><Link to="/kontakt">Contact</Link></FooterMenuListItem>
           </FooterMenuList>
           <FooterMenuList>
-            <FooterMenuListItem><Link to="/sklep">Sklep</Link></FooterMenuListItem>
-            <FooterMenuListItem><Link to="/mojekonto">Moje konto</Link></FooterMenuListItem>
-            <FooterMenuListItem><Link to="/kasa">Koszyk</Link></FooterMenuListItem>
+            <FooterMenuListItem><Link to="/sklep">Store</Link></FooterMenuListItem>
+            <FooterMenuListItem><Link to="/mojekonto">My Account</Link></FooterMenuListItem>
+            <FooterMenuListItem><Link to="/kasa">Cart</Link></FooterMenuListItem>
           </FooterMenuList>
           <FooterMenuList>
             <FooterMenuListItem><a href="https://www.instagram.com/">Instagram</a></FooterMenuListItem>

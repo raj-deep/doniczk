@@ -23,7 +23,7 @@ const DirectoryItem = ({ category }) => {
         <DirectoryItemImage src={src} alt={`zdjęcie ${title}`} />
           <DirectoryItemContent>
             <h2>{title}</h2>
-            <span>PRZEJDŹ DO PRODUKTÓW</span>
+            <span>GO TO PRODUCTS</span>
         </DirectoryItemContent>
       </DirectoryItemLink>
     </DirectoryListItem>

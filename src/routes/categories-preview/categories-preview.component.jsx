@@ -15,7 +15,7 @@ const CategoriesPreview = () => {
     <Fragment>
       <Breadcrumbs>
         <Crumb>
-          <Link to="/sklep">Sklep /</Link>
+          <Link to="/sklep">Shop /</Link>
         </Crumb>
       </Breadcrumbs>
       {Object.keys(categoriesLocal).map((title) => {

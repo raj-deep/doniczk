@@ -71,22 +71,22 @@ const Navigation = () => {
                   onBlur={() => setDropdownOpen(false)}
                 >
                   <DropdownMenuItem>
-                    <NavLink to='/sklep/rosliny' onClick={handleDropdownItemClick}>ROŚLINY</NavLink>
+                    <NavLink to='/sklep/rosliny' onClick={handleDropdownItemClick}>PLANTS</NavLink>
                   </DropdownMenuItem>
 
                   <DropdownMenuItem>
-                    <NavLink to='/sklep/sadzonki' onClick={handleDropdownItemClick}>SADZONKI</NavLink>
+                    <NavLink to='/sklep/sadzonki' onClick={handleDropdownItemClick}>SEEDLINGS</NavLink>
                   </DropdownMenuItem>
 
                   <DropdownMenuItem>
-                    <NavLink to='/sklep/ziemia' onClick={handleDropdownItemClick}>ZIEMIA</NavLink>
+                    <NavLink to='/sklep/ziemia' onClick={handleDropdownItemClick}>SAND</NavLink>
                   </DropdownMenuItem>
 
                   <DropdownMenuItem>
-                    <NavLink to='/sklep/donice' onClick={handleDropdownItemClick}>DONICE</NavLink>
+                    <NavLink to='/sklep/donice' onClick={handleDropdownItemClick}>POTS</NavLink>
                   </DropdownMenuItem>
                   <DropdownMenuItem>
-                    <NavLink to='/sklep/akcesoria' onClick={handleDropdownItemClick}>AKCESRIA</NavLink>
+                    <NavLink to='/sklep/akcesoria' onClick={handleDropdownItemClick}>ACCESSORIES</NavLink>
                   </DropdownMenuItem>
                   
                 </DropdownMenu>

@@ -21,10 +21,10 @@ const Category = () => {
     <Fragment>
       <Breadcrumbs>
         <Crumb>
-          <Link to="/sklep">Sklep</Link>
+          <Link to="/sklep">Shop</Link>
         </Crumb>
         <Crumb>
-          <a>Kategoria - {category}</a>
+          <a>Category - {category}</a>
         </Crumb>
       </Breadcrumbs>
       <Title>{category.toUpperCase()}</Title>

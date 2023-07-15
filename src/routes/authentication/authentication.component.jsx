@@ -33,10 +33,10 @@ const Authentication = () => {
     <AuthenticationContainer>
       <Breadcrumbs>
         <Crumb>
-          <a href="/">Sklep</a>
+          <a href="/">Shop</a>
         </Crumb>
         <Crumb>
-          <a href="/mojekonto">Moje konto</a>
+          <a href="/mojekonto">My Account</a>
         </Crumb>
       </Breadcrumbs>
       <FormWrapper>

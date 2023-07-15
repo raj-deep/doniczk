@@ -72,7 +72,7 @@ const WelcomeScreen = ({ onLogout }) => {
     if (password !== confirmPassword) {
       setErrors({
         confirmPassword:
-          "Hasła nie są identyczne. Upewnij się, że oba pola zawierają to samo hasło.",
+          "The passwords are not identical. Make sure both fields contain the same password.",
       });
       return;
     }
@@ -105,10 +105,10 @@ const WelcomeScreen = ({ onLogout }) => {
       if (error.code === "auth/email-already-in-use") {
         setErrors({
           email:
-            "Konto z tym adresem e-mail już istnieje. Zaloguj się używajac tego adresu email.",
+            "An account with this email address already exists. Log in using this email address.",
         });
       } else {
-        console.log("Błąd w tworzeniu użytkownika, spróbuj jeszcze raz", error);
+        console.log("Error creating user, please try again", error);
       }
     }
   };
@@ -135,10 +135,10 @@ const WelcomeScreen = ({ onLogout }) => {
       }}
     >
       <AccountContainer>
-        <div>Możesz zaktualizować informacje o swoim koncie</div>
+        <div>You can update your account information</div>
         <form onSubmit={handleSubmit}>
           <FormInput
-            label="Imię"
+            label="Name"
             type="text"
             required
             onChange={handleChange}
@@ -158,19 +158,19 @@ const WelcomeScreen = ({ onLogout }) => {
           />
 
           <FormInput
-            label="Hasło"
+            label="Password"
             type="password"
             required
             onChange={handleChange}
             name="password"
             value={password}
             pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()\-_=+{};:,<.>])(?!.*\s).{8,}$"
-            instruction="Hasło musi zawierać co najmniej 8 znaków, w tym małe/duże litery, cyfry i znaki specjalne, takie jak !@#$%^&*()-_=+{};:,<.>"
+            instruction="The password must contain at least 8 characters, including lowercase/uppercase letters, numbers, and special characters such as !@#$%^&*()-_=+{};:,<.>"
             error={errors.password}
           />
 
           <FormInput
-            label="Potwierdź hasło"
+            label="Confirm Password"
             type="password"
             required
             onChange={handleChange}
@@ -180,7 +180,7 @@ const WelcomeScreen = ({ onLogout }) => {
           />
 
           <FormInput
-            label="Numer telefonu"
+            label="Phone Number"
             type="tel"
             required
             onChange={handleChange}
@@ -188,15 +188,15 @@ const WelcomeScreen = ({ onLogout }) => {
             value={phoneNumber}
             pattern="\d{3} \d{3} \d{3}"
             placeholder="123 456 789"
-            instruction="Wprowadź swój numer telefonu w formacie 123 456 789."
+            instruction="Enter your phone number in the format 123 456 789."
             error={errors.phoneNumber}
           />
 
-          <Button type="submit">Aktualizacja</Button>
+          <Button type="submit">Update</Button>
         </form>
       </AccountContainer>
       <RightContainer>
-        <img src={Plants} alt="ilustracja roślin" />
+        <img src={Plants} alt="plant illustration" />
         <LogoutBtn onClick={handleLogout}>Log out</LogoutBtn>
       </RightContainer>
     </div>

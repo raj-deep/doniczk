@@ -15,28 +15,28 @@ const Contact = () => {
     <ContactContainer>
         <Breadcrumbs>
         <Crumb>
-        <a href="/">Sklep</a>
+        <a href="/">Shop</a>
         </Crumb>
         <Crumb>
-        <a href="/kontakt">Kontakt</a>
+        <a href="/kontakt">Contact</a>
         </Crumb>
     </Breadcrumbs>
         <ContactContainerColumns>
             <ContactContainerColumn>
-                <h2>Napisz do nas</h2>
-                <p>Doniczkowcy to miejsce dla każdego roślinomaniaka. Odwiedź nasz sklep z roślinami w Poznaniu i Krakowie lub zamów rośliny doniczkowe online z bezpieczną i szybką wysyłką kurierską.</p>
+                <h2>Write to us</h2>
+                <p>Doniczkowcy is a place for every plant maniac. Visit our plant shop in Poznań and Kraków or order potted plants online with safe and fast courier shipping.</p>
 
-                <Email>sklep@doniczkowcy.pl</Email>
+                <Email>shop@doniczkowcy.pl</Email>
 
                 <ContactContainerHorizontal>
                     <Address>
-                        <h3>Sklep POZNAŃ</h3>
+                        <h3>Shop POZNAŃ</h3>
                         <p>ul. Słonecznikowa 14</p>
                         <p>45-880 Poznań</p>
                         <p>+48 546 236 626</p>
                     </Address>
                     <Address>
-                        <h3>Sklep KRAKÓW</h3>
+                        <h3>Shop KRAKÓW</h3>
                         <p>ul. Fiołkowa 14</p>
                         <p>31-880 Kraków</p>
                         <p>+48 536 536 666</p>

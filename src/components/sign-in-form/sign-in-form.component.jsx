@@ -51,8 +51,8 @@ const SignInForm = ({ onLoginSuccess }) => {
 
   return (
     <SignInContainer>
-      <h2>Masz już konto?</h2>
-      <span>Zaloguj się przy użyciu adresu e-mail i hasła</span>
+      <h2>Already have an account?</h2>
+      <span>Log in using your email address and password</span>
       <form onSubmit={handleSubmit}>
         <FormInput
           label="Email"
@@ -72,13 +72,13 @@ const SignInForm = ({ onLoginSuccess }) => {
           value={password}
         />
         <ButtonsContainer>
-          <Button type="submit">Zaloguj się</Button>
+          <Button type="submit">Log in</Button>
           <Button
             buttonType={BUTTON_TYPE_CLASSES.google}
             type="button"
             onClick={signInWithGoogle}
           >
-            Zaloguj się z Google
+            Sign in with Google
           </Button>
         </ButtonsContainer>
       </form>

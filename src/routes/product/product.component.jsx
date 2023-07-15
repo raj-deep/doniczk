@@ -32,7 +32,7 @@ const Product = () => {
   const categoriesLocal = useSelector(selectCategoriesLocalList);
   const { title, id } = useParams();
   const [product, setProduct] = useState({
-    name: "Birds nest fern",
+    name: `Bird's-nest fern`,
     imageUrl:
       "https://images.unsplash.com/photo-1636901942318-972ea62b4d5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
     price: "25,00 PLN",
@@ -56,7 +56,7 @@ const Product = () => {
           <Link to="/">Home</Link>
         </Crumb>
         <Crumb>
-          <Link to="/sklep">Sklep</Link>
+          <Link to="/sklep">Store</Link>
         </Crumb>
         <Crumb>
           <Link to={`/sklep/${title}`}>{title}</Link>
@@ -92,27 +92,27 @@ const Product = () => {
               <>
               <ProductAdditional aria-label="Dodatkowe informacje o produkcie">
                 <ProductAdditionalTitle>
-                  Dodatkowe informacje:
+                  Additional Information:
                 </ProductAdditionalTitle>
                 <ProductAdditionalInfoList>
                   <ProductAdditionalInfoListItem>
                     <ProductAdditionalImage src={Sun} alt="ikona pełne słonce" />
                     <ProductAdditionalInfoTitle>
-                      Wysokie nasłoneczenie
+                      High Sunshine
                     </ProductAdditionalInfoTitle>
                   </ProductAdditionalInfoListItem>
   
                   <ProductAdditionalInfoListItem>
                     <ProductAdditionalImage src={Pet} alt="ikona zwierzęta" />
                     <ProductAdditionalInfoTitle>
-                      Przyjazny dla zwierząt
+                      Pet Friendly
                     </ProductAdditionalInfoTitle>
                   </ProductAdditionalInfoListItem>
   
                   <ProductAdditionalInfoListItem>
                     <ProductAdditionalImage src={Watering} alt="ikona konewka" />
                     <ProductAdditionalInfoTitle>
-                      Podlewaj regularnie
+                      Water Regularly
                     </ProductAdditionalInfoTitle>
                   </ProductAdditionalInfoListItem>
                 </ProductAdditionalInfoList>
@@ -122,7 +122,7 @@ const Product = () => {
           </div>
           <div>
             <Counter>- 1 +</Counter>
-            <Button onClick={addProductToCart}>Dodaj do koszyka</Button>
+            <Button onClick={addProductToCart}>Add To Cart</Button>
           </div>
         </ProductInfoContent>
       </ProductInfo>
