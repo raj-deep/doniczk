@@ -31,26 +31,26 @@ const Checkout = () => {
     <CheckoutContainer>
       <CheckoutHeader>
         <HeaderBlock>
-          <span>Produkt</span>
+          <span>Product</span>
         </HeaderBlock>
         <HeaderBlock>
-          <span>Opis</span>
+          <span>Description</span>
         </HeaderBlock>
         <HeaderBlock>
-          <span>Ilość</span>
+          <span>Quantity</span>
         </HeaderBlock>
         <HeaderBlock>
-          <span>Cena</span>
+          <span>Price</span>
         </HeaderBlock>
         <HeaderBlock>
-          <a>Usuń</a>
+          <a>Delete</a>
         </HeaderBlock>
       </CheckoutHeader>
       {cartItems.map((cartItem) => (
         <CheckoutItem key={cartItem.id} cartItem={cartItem} />
       ))}
-      <Total>Suma: {cartTotal},00 PLN</Total>
-      <ConfirmBtn onClick={goToConfirmation}>Potwierdź zamówienie</ConfirmBtn>
+      <Total>Total Sum: {cartTotal},00 Rupees</Total>
+      <ConfirmBtn onClick={goToConfirmation}>Confirm the Order</ConfirmBtn>
     </CheckoutContainer>
   );
 };
