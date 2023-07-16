@@ -1,7 +1,7 @@
 export const SHOP_DATA = [
   {
     title: "rosliny",
-    categories: "rosliny",
+    categories: "plant",
     items: [
       {
         id: 1,
