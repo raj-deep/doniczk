@@ -34,7 +34,7 @@ const   ProductCard = ({ title, product }) => {
         buttonType={BUTTON_TYPE_CLASSES.inverted}
         onClick={addProductToCart}
       >
-        Dodaj do koszyka
+        ADD TO CART
       </Button>
     </ProductCartContainer>
   );

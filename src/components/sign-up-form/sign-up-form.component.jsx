@@ -84,11 +84,11 @@ const SignUpForm = ({ onLoginSuccess }) => {
 
   return (
     <SignUpContainer>
-      <h2>Nie masz jeszcze konta?</h2>
-      <span>Zarejestruj się przy użyciu adresu e-mail i hasła</span>
+      <h2>You don't have an account yet?</h2>
+      <span>Sign up with your email address and password</span>
       <form onSubmit={handleSubmit}>
         <FormInput
-          label="Imię"
+          label="Name"
           type="text"
           required
           onChange={handleChange}
@@ -108,19 +108,19 @@ const SignUpForm = ({ onLoginSuccess }) => {
         />
 
         <FormInput
-          label="Hasło"
+          label="Password"
           type="password"
           required
           onChange={handleChange}
           name="password"
           value={password}
           pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()\-_=+{};:,<.>])(?!.*\s).{8,}$"
-          instruction="Hasło musi zawierać co najmniej 8 znaków, w tym małe/duże litery, cyfry i znaki specjalne, takie jak !@#$%^&*()-_=+{};:,<.>"
+          instruction="The password must contain at least 8 characters, including lowercase/uppercase letters, numbers, and special characters such as !@#$%^&*()-_=+{};:,<.>"
           error={errors.password}
         />
 
         <FormInput
-          label="Potwierdź hasło"
+          label="Confirm Password"
           type="password"
           required
           onChange={handleChange}
@@ -130,7 +130,7 @@ const SignUpForm = ({ onLoginSuccess }) => {
         />
 
         <FormInput
-          label="Numer telefonu"
+          label="Phone Number"
           type="tel"
           required
           onChange={handleChange}
@@ -138,11 +138,11 @@ const SignUpForm = ({ onLoginSuccess }) => {
           value={phoneNumber}
           pattern="\d{3} \d{3} \d{3}"
           placeholder="123 456 789"
-          instruction="Wprowadź swój numer telefonu w formacie 123 456 789."
+          instruction="Phone Number should be in the form 123 456 789."
           error={errors.phoneNumber}
         />
 
-        <Button type="submit">Zarejestruj się</Button>
+        <Button type="submit">Register</Button>
       </form>
     </SignUpContainer>
   );

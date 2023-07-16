@@ -1,6 +1,6 @@
 export const SHOP_DATA = [
   {
-    title: "rosliny",
+    title: "plant",
     categories: "plant",
     items: [
       {
