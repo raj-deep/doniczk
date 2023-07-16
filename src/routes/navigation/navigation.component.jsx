@@ -75,18 +75,18 @@ const Navigation = () => {
                   </DropdownMenuItem>
 
                   <DropdownMenuItem>
-                    <NavLink to='/sklep/sadzonki' onClick={handleDropdownItemClick}>SEEDLINGS</NavLink>
+                    <NavLink to='/sklep/seedlings' onClick={handleDropdownItemClick}>SEEDLINGS</NavLink>
                   </DropdownMenuItem>
 
                   <DropdownMenuItem>
-                    <NavLink to='/sklep/ziemia' onClick={handleDropdownItemClick}>SAND</NavLink>
+                    <NavLink to='/sklep/soil' onClick={handleDropdownItemClick}>SAND</NavLink>
                   </DropdownMenuItem>
 
                   <DropdownMenuItem>
-                    <NavLink to='/sklep/donice' onClick={handleDropdownItemClick}>POTS</NavLink>
+                    <NavLink to='/sklep/pots' onClick={handleDropdownItemClick}>POTS</NavLink>
                   </DropdownMenuItem>
                   <DropdownMenuItem>
-                    <NavLink to='/sklep/akcesoria' onClick={handleDropdownItemClick}>ACCESSORIES</NavLink>
+                    <NavLink to='/sklep/accessories' onClick={handleDropdownItemClick}>ACCESSORIES</NavLink>
                   </DropdownMenuItem>
                   
                 </DropdownMenu>

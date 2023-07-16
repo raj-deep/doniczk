@@ -238,8 +238,8 @@ export const SHOP_DATA = [
     ],
   },
   {
-    title: "sadzonki",
-    categories: "sadzonki",
+    title: "seedlings",
+    categories: "seedlings",
     items: [
       {
         id: 10,
@@ -351,8 +351,8 @@ export const SHOP_DATA = [
   },
   {
     id: 3,
-    title: "donice",
-    categories: "donice",
+    title: "pots",
+    categories: "pots",
     items: [
       {
         id: 18,
@@ -398,8 +398,8 @@ export const SHOP_DATA = [
   },
   {
     id: 4,
-    title: "akcesoria",
-    categories: "akcesoria",
+    title: "accessories",
+    categories: "accessories",
     items: [
       {
         id: 35,
@@ -465,8 +465,8 @@ export const SHOP_DATA = [
   },
   {
     id: 5,
-    title: "ziemia",
-    categories: "ziemia",
+    title: "soil",
+    categories: "soil",
     items: [
       {
         id: 30,

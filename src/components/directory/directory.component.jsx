@@ -14,19 +14,19 @@ const categories = [
     id: 1,
     title: 'Soil',
     src: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
-    route: 'sklep/ziemia',
+    route: 'sklep/soil',
   },
   {
     id: 2,
     title: 'Pots',
     src: 'https://images.unsplash.com/photo-1528789386055-75c4b717bad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-    route: 'sklep/donice',
+    route: 'sklep/pots',
   },
   {
     id: 3,
     title: 'Accessories',
     src: 'https://images.unsplash.com/photo-1589945341601-e9e036a35493?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80',
-    route: 'sklep/akcesoria',
+    route: 'sklep/accessories',
   },
   {
     id: 4,
@@ -38,7 +38,7 @@ const categories = [
     id: 5,
     title: 'Seedlings',
     src: 'https://images.unsplash.com/photo-1659683705445-462189a7d2f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80',
-    route: 'sklep/sadzonki',
+    route: 'sklep/seedlings',
   },
 ];
 
