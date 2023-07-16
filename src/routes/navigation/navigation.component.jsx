@@ -79,7 +79,7 @@ const Navigation = () => {
                   </DropdownMenuItem>
 
                   <DropdownMenuItem>
-                    <NavLink to='/sklep/soil' onClick={handleDropdownItemClick}>SAND</NavLink>
+                    <NavLink to='/sklep/soil' onClick={handleDropdownItemClick}>SOIL</NavLink>
                   </DropdownMenuItem>
 
                   <DropdownMenuItem>
